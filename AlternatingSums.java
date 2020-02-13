@@ -1,3 +1,4 @@
+//Work on finding the alternative sum 
 package arcade;
 
 public class AlternatingSums {
