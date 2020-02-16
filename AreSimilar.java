@@ -1,3 +1,4 @@
+
 package arcade;
 
 public class AreSimilar {
