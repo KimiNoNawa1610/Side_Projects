@@ -1,6 +1,5 @@
 package graph;
 
-
 public class NewRoadSystem {
 
     public static void main(String[] args)
