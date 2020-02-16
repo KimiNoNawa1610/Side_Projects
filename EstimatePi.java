@@ -9,7 +9,7 @@ package estimatepi;
 /**
  * Estimate pi class use to estimate pi
  * this class using the pi-circle algorithm to estimate pi
- * @author votha
+ * @author Nhan Vo
  */
 public class EstimatePi {
       private int numbpoint_in_circle=0;
