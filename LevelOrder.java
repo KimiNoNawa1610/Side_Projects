@@ -5,8 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-
-
 public class LevelOrder {
 
     public static void main(String[] args)
@@ -26,7 +24,6 @@ public class LevelOrder {
         root.left.right.left = new TreeNode(110);
         root.left.right.right = new TreeNode(120);
       
-
     }
     
     public ArrayList<ArrayList<Integer>> levelOrder(TreeNode A) {
