@@ -25,7 +25,12 @@ public class TortoiseandHare {
         }
         int point1=nums.get(0);
         int point2=tortoise;
-        while
+        while(point1!=point2){
+            point1=nums.get(point1);
+            point2=nums.get(point2);
+            
+        }
+        return point1;
     }
 
     
