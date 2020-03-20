@@ -33,6 +33,16 @@ public class TortoiseandHare {
         return point1;
     }
     public static void main(String[] args){
+        ArrayList<Integer> sortlist=new ArrayList<>();
+        sortlist.add(1);
+        sortlist.add(2);
+        sortlist.add(3);
+        sortlist.add(4);
+        sortlist.add(4);
+        sortlist.add(5);
+        sortlist.add(6);
+        TortoiseandHare TaH=new TortoiseandHare();
+        System.out.println(sortlist);
         
     }
 }
