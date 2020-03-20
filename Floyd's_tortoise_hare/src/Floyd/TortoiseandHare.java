@@ -8,7 +8,7 @@ package Floyd;
 import java.util.ArrayList;
 
 /**
- *
+ * Find a duplication in a sorted collections using Floyd's tortoise and Hare theorem.
  * @author votha
  */
 public class TortoiseandHare {
@@ -38,11 +38,13 @@ public class TortoiseandHare {
         sortlist.add(2);
         sortlist.add(3);
         sortlist.add(4);
-        sortlist.add(4);
         sortlist.add(5);
+        sortlist.add(6);
         sortlist.add(6);
         TortoiseandHare TaH=new TortoiseandHare();
         System.out.println(sortlist);
+        System.out.println(TaH.FindDuplication(sortlist));
+        
         
     }
 }
