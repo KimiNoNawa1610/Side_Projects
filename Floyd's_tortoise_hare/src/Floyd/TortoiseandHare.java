@@ -32,7 +32,7 @@ public class TortoiseandHare {
         }
         return point1;
     }
-
-    
-    
+    public static void main(String[] args){
+        
+    }
 }
