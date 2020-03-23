@@ -3,20 +3,40 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sideproject;
+package chessgame;
 
 /**
  *
  * @author votha
  */
-public abstract class Pieces {
+public abstract class Piece {
+    
     public enum pieces{
         Pawn,Kinght,Rook,Bishop,Queen,King
     }
     public enum PiecesType{
         Black, White
-}
-    public void Pieces(PiecesType, pieces,String x, int y){
-        
     }
+    
+    private int coordinate;
+    
+    private PiecesType type;
+    
+    public int getCoordinate(){
+        return coordinate;
+    }
+    
+    public PiecesType getPiecesType(){
+        return type;
+    }
+    
+    public Piece(PiecesType Type, int Coordinate){
+        this.type=Type;
+        this.coordinate=Coordinate;
+    }
+    
+    public abstract void move();
+    
+    
+   
 }
