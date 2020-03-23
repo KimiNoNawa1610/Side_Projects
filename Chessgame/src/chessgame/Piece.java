@@ -5,6 +5,8 @@
  */
 package chessgame;
 
+import java.util.List;
+
 /**
  *
  * @author votha
@@ -35,8 +37,6 @@ public abstract class Piece {
         this.coordinate=Coordinate;
     }
     
-    public abstract void move();
-    
-    
-   
+    public abstract List<LegalMove> isLegalMove(Board board);
+ 
 }
