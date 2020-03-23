@@ -9,7 +9,7 @@ package chessgame;
  *
  * @author votha
  */
-public class LegalMove {
+public abstract class LegalMove {
     
     public Board board;
     
@@ -22,6 +22,8 @@ public class LegalMove {
         this.board=mboard;
         this.destination=mdestination;
     }
+    
+    public static 
     
     
 }
