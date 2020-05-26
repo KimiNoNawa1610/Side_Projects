@@ -14,5 +14,7 @@ public class tester {
         EstimatePi est=new EstimatePi();
         est.setEstimation(100);
         System.out.println(est.EstimatePi());
+        
     }
+    
 }
