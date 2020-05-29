@@ -34,6 +34,7 @@ public class EstimatePi {
       public double EstimatePi(){
             
           for(int i=0;i<estimate;i++){
+                
               float x=(float) Math.random();
               float y=(float) Math.random();
               float displacement= x*x+y*y;
