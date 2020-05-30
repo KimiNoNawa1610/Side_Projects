@@ -16,6 +16,7 @@ public class EstimatePi {
       private int numbpoint_in_circle=0;
       
       private int numbpoint_in_total=0;
+      
       private int estimate=0;
       /**
        * Setter method to set the accuracy of the estimation
