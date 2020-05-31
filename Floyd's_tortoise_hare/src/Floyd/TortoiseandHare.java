@@ -14,6 +14,7 @@ import java.util.ArrayList;
 public class TortoiseandHare {
     
     public int FindDuplication(ArrayList<Integer> nums){
+        
         int tortoise=nums.get(0);
         int hare=nums.get(0);
         boolean condition=true;
