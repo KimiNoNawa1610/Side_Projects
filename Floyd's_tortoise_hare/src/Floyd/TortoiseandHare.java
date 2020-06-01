@@ -28,7 +28,9 @@ public class TortoiseandHare {
             hare=nums.get(nums.get(hare));
             
             if(tortoise==hare){
+                
                 condition=false;
+                
             }
         }
         int point1=nums.get(0);
