@@ -22,6 +22,7 @@ public class TortoiseandHare {
         boolean condition=true;
         
         while(condition){
+            
             tortoise=nums.get(tortoise);
             hare=nums.get(nums.get(hare));
             if(tortoise==hare){
