@@ -38,9 +38,50 @@ public class Board {
 
     }
 
+    public ArrayList<String> getMainDiag(){
+
+        ArrayList<String> output=new ArrayList<>();
+
+        for(int i=0;i<temp.size();i++){
+
+            output.add(temp.get(i%temp.size()).get(i%(temp.get(0).size())));
+
+        }
+
+        return output;
+
+    }
+
+    public  ArrayList<String> getReverseMainDiag(){
+
+        ArrayList<String> output=new ArrayList<>();
+
+        for(int i=temp.size()-1;i>=0;i--){
+
+            output.add(temp.get(temp.size()-1-i).get(i%(temp.get(0).size())));
+
+        }
+
+        return output;
+    }
+
     public ArrayList<ArrayList<String>> getRow(){
 
         return temp;
+
+    }
+
+    public ArrayList<String> getColumn(int n){
+
+        ArrayList<String> output= new ArrayList<>();
+
+        for(int i=0;i<temp.size();i++){
+
+            output.add(temp.get(i).get(n));
+
+        }
+
+        return output;
 
     }
 
@@ -71,7 +112,7 @@ public class Board {
         }
 
         return output;
-        
+
     }
 
 }
