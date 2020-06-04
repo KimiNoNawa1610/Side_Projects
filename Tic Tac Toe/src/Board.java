@@ -6,6 +6,7 @@ public class Board {
     ArrayList<ArrayList<String>> temp=new ArrayList<>();
 
     public Board(int row, int column){
+
         Row=row;
         Col=column;
         temp=MakeRow(Row);
