@@ -16,6 +16,12 @@ public class Logger {
 
     }
 
+    public void logString(String Message){
+
+        System.out.println(Message);
+
+    }
+
     public static void setInstance(Logger instance){
 
         LogInstance=instance;
