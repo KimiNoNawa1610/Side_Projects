@@ -4,9 +4,13 @@ public class GameRule {
 
     private Board board;
 
+    private Boolean EndGame;
+
     public GameRule(int n){
 
         board=new Board(n,n);
+
+        EndGame=false;
 
     }
 
@@ -19,7 +23,6 @@ public class GameRule {
     public boolean WinCondition(){
 
         ArrayList<ArrayList<String>> tempRow=new ArrayList<>(board.getRow());
-
 
         Logger log =new Logger(this);
 
@@ -34,6 +37,8 @@ public class GameRule {
 
                 log.logMove("x","is the winner");
 
+                EndGame=true;
+
                 return true;
 
             }
@@ -43,6 +48,8 @@ public class GameRule {
                 //log.logMove("o","Condition 1" );
 
                 log.logMove("o","is the winner");
+
+                EndGame=true;
 
                 return true;
 
@@ -54,6 +61,8 @@ public class GameRule {
 
                 log.logMove("o","is the winner");
 
+                EndGame=true;
+
                 return true;
 
             }
@@ -63,6 +72,8 @@ public class GameRule {
                 //log.logMove("x","Condition 2" );
 
                 log.logMove("x","is the winner");
+
+                EndGame=true;
 
                 return true;
 
@@ -76,6 +87,8 @@ public class GameRule {
 
             log.logMove("o","is the winner");
 
+            EndGame=true;
+
             return true;
 
         }
@@ -85,6 +98,8 @@ public class GameRule {
             //log.logMove("X","Condition 3" );
 
             log.logMove("x","is the winner");
+
+            EndGame=true;
 
             return true;
 
@@ -96,6 +111,8 @@ public class GameRule {
 
             log.logMove("x","is the winner");
 
+            EndGame=true;
+
             return true;
 
         }
@@ -106,10 +123,35 @@ public class GameRule {
 
             log.logMove("o","is the winner");
 
+            EndGame=true;
+
             return true;
 
         }
 
+
+        return false;
+
+    }
+
+    public Boolean getEndGame(){
+
+        return EndGame;
+
+    }
+
+    public void setEndGame(boolean t){
+
+        EndGame=t;
+
+    }
+
+    public boolean LegalMove(int row, int column){
+
+        if(board.getRow().get(row).get(column)=="|_|"){
+
+            return true;
+        }
 
         return false;
 
