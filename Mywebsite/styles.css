@@ -1,10 +1,62 @@
-.placeholder{
+body{
 
-    background-color: red ;
+    margin: 0px;
 
 }
 
-.another{
+.Main{
 
-    background-color: darksalmon;
+    display: grid;
+
+    grid-template-columns: 1fr;
+
 }
+
+.Menu{
+
+    height: 25px;
+
+    background-color: midnightblue;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+}
+
+.MainPage a,.Aboutme a,.Github-link a{
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: border-bottom 0.5s;
+
+    font-weight: bold;
+
+    text-align: center;
+
+}
+
+
+
+.MainPage:hover,.Aboutme:hover,.Github-link:hover{
+
+    border-bottom: 2px solid white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
