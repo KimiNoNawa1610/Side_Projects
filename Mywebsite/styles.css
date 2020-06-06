@@ -114,9 +114,21 @@ body{
     margin-bottom: 20px;
 }
 
-.Information{
+/* Transtition- Animation */
 
-    font-weight: bold;
+.img-intro .Information{
+
+    transition: 1s;
+
+    font-weight: 600;
+    
+    color: transparent;
+
+}
+
+.img-intro:hover .Information{
+
+    font-weight: 600;
 
     color: darkturquoise;
 
@@ -127,7 +139,7 @@ body{
     transition: 1s;
 
     filter: brightness(20%);
-    
+
 }
 
 
