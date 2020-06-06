@@ -83,7 +83,7 @@ body{
 
 }
 
-.Information{
+.img-intro{
 
     position: absolute;
 
@@ -104,6 +104,29 @@ body{
     padding-left: 100px;
 
     padding-right: 100px;
+    
+}
+
+.logo{
+
+    width: 50%;
+
+    margin-bottom: 20px;
+}
+
+.Information{
+
+    font-weight: bold;
+
+    color: darkturquoise;
+
+}
+
+.image-darken{
+
+    transition: 1s;
+
+    filter: brightness(20%);
     
 }
 
