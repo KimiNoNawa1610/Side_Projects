@@ -2,11 +2,15 @@ body{
 
     margin: 10px;
 
+    background-image: url('Images/background3.png');
+
 }
 
 /* Menu Styles */
 
 .Main{
+
+    text-align: center;
 
     display: grid;
 
@@ -16,22 +20,55 @@ body{
 
 .Menu{
 
-    height: 25px;
+    height: 150px;
 
     display: flex;
 
     justify-content: space-around;
 
-
     text-transform: uppercase;
 
-    text-align: center;
+    align-items: center;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    min-height: 8px;
+
+    background-color: royalblue;
+
+    color: seashell;
 
 }
 
-.MainPage a,.Aboutme a,.Github-link a{
+.Navigation {
 
-    color: black;
+    color: seashell;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    letter-spacing: 4px;
+
+    font-size: 22px;
+
+}
+
+.links{
+
+    display: flex;
+
+    justify-content: space-around;
+
+    width: 45%;
+
+}
+
+.links a{
+
+    color: seashell;
 
     text-decoration: none;
 
@@ -41,13 +78,98 @@ body{
 
     text-align: center;
 
+    font-size: 14px;
+
+}
+
+.links li{
+
+    list-style: none;
+
+}
+
+.links a:hover{
+
+    border-bottom: seashell solid 2px;
+}
+
+.mobile-view div{
+
+    width: 22px;
+
+    height: 3.5px;
+
+    background-color: seashell;
+
+    margin: 5px;
+
+}
+
+.mobile-view{
+
+    display: none;
+
+
+}
+
+
+.MainPage a,.Aboutme a,.Github-link a{
+
+    color: lavenderblush;
+
+    text-decoration: none;
+
+    transition: border-bottom 0.5s;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 
 .MainPage:hover,.Aboutme:hover,.Github-link:hover{
 
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid lavenderblush;
 
+}
+
+@media screen and (max-width: 768px){
+
+    .links{
+
+        position: absolute;
+
+        right: 0px;
+
+        height: 92vh;
+
+        top: 8vh;
+
+        background-color: royalblue;
+
+        display: flex;
+
+        flex-direction: column;
+
+        
+
+
+
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+
+    .links{
+
+        width: 55%;
+
+    }
+    
 }
 
 /* Portfolio Styles */
