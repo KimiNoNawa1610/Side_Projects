@@ -116,7 +116,7 @@ body{
 
 @media screen and (max-width: 768px){
 
-    .Menu{
+    body{
 
         overflow-x: hidden;
 
