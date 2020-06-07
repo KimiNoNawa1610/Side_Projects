@@ -247,7 +247,6 @@ body{
 /*Contents Styles*/
 
 
-
 .Summary p{
 
     font-family: 'Times New Roman', Times, serif;
@@ -309,6 +308,16 @@ body{
     border-radius: 50%;
 
     transition: 0.5s;
+
+}
+
+.Social-Media li:hover{
+
+    color: rgb(44, 190, 178);
+
+    border: 1px solid rgb(44, 190, 178);
+
+    transition: .5s;
 
 }
 
