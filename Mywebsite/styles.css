@@ -138,6 +138,12 @@ body{
 
 @media screen and (max-width: 768px){
 
+    .Menu{
+
+        overflow: hidden;
+
+    }
+
     .links{
 
         position: absolute;
@@ -156,11 +162,17 @@ body{
 
         justify-content: center;
 
+        width: 100%;
+
+        transform: translateX(100%);
+
+    }
+
+    .links li{
+
+        opacity: 0;
+
         
-
-
-
-
 
     }
     
