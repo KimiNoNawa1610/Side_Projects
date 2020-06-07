@@ -4,6 +4,10 @@ body{
 
     background-image: url('Images/background3.png');
 
+    background-repeat: no-repeat;
+
+    
+
 }
 
 /* Menu Styles */
