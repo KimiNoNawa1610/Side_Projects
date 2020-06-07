@@ -233,9 +233,21 @@ body{
 
 }
 
-.transform .Second-line {
+.transform .Second-line{
 
     opacity: 0;
+
+}
+
+.transform .First-line{
+
+    transform: rotate(-90deg) translate(-5px,6px);
+
+}
+
+.transform .Third-line{
+
+    transform: translate(6px,-12px);
 
 }
 
