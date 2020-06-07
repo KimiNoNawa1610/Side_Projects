@@ -114,23 +114,6 @@ body{
 }
 
 
-.MainPage a,.Aboutme a,.Github-link a{
-
-    color: lavenderblush;
-
-    text-decoration: none;
-
-    transition: border-bottom 0.5s;
-
-    font-weight: bold;
-
-    text-align: center;
-
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
-
 @media screen and (max-width: 768px){
 
     .Menu{
@@ -193,6 +176,24 @@ body{
 
     transform: translateX(0%);
 
+}
+
+@keyframes linksFaded{
+    
+    from{
+
+        opacity: 0;
+
+        transform: translateX(50px)
+
+
+    }
+    to{
+
+        opacity: 1;
+
+        transform: translateX(0px)
+    }
 }
 
 /* Portfolio Styles */
