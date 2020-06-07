@@ -6,9 +6,11 @@ const Animation = () => {
 
     const mobilelinks= document.querySelectorAll('.links li');
 
-    //toggle Links
+    
 
     mobile.addEventListener('click',()=>{
+
+        //toggle Links
 
         links.classList.toggle('active');
 
@@ -23,11 +25,15 @@ const Animation = () => {
             }
             else {
 
-                links.style.animation = `linksFaded 0.5s ease forwards ${indexes / 5 + 1.2}s`;
+                links.style.animation = `linksFaded 0.5s ease forwards ${indexes / 5 + 0.5}s`;
 
             }
 
         });
+
+        //Mobile Lines Animation
+
+        mobile.classList.toggle('transform');
 
     });
 
