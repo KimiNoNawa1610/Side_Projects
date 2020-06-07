@@ -19,7 +19,7 @@ body{
 
     grid-template-columns: 1fr;
 
-    background-color: royalblue;
+    background-color: rgb(62, 13, 102);
 
 }
 
@@ -133,7 +133,7 @@ body{
 
         align-items: center;
 
-        background-color: royalblue;
+        background-color: rgb(62, 13, 102);
 
         width: 100%;
 
@@ -215,23 +215,6 @@ body{
 
 }
 
-.img-intro:hover .Information{
-
-    font-weight: 600;
-
-    font-size: 75;
-
-    color: darkturquoise;
-
-}
-
-.image-darken{
-
-    transition: 1s;
-
-    filter: brightness(20%);
-
-}
 
 .transform .Second-line{
 
