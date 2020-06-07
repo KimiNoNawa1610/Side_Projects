@@ -130,12 +130,6 @@ body{
 }
 
 
-.MainPage:hover,.Aboutme:hover,.Github-link:hover{
-
-    border-bottom: 2px solid lavenderblush;
-
-}
-
 @media screen and (max-width: 768px){
 
     .Menu{
@@ -172,7 +166,7 @@ body{
 
         opacity: 0;
 
-        
+
 
     }
     
