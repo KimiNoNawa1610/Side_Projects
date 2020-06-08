@@ -184,7 +184,6 @@ body{
 
     }
 
-
     
 }
 
@@ -263,6 +262,8 @@ body{
 
     line-height: 40px;
 
+    text-align: center;
+
 }
 
 .Banner{
@@ -293,9 +294,13 @@ body{
 
     list-style: none;
 
-    margin: 10px 30px;
-
     display: inline-block;
+
+}
+
+.Social-Media a{
+
+    margin: 10px 30px;
 
     font-size: 35px;
 
@@ -311,11 +316,11 @@ body{
 
 }
 
-.Social-Media li:hover{
+.Social-Media a:hover{
 
-    color: rgb(44, 190, 178);
+    color: rgb(20, 70, 145);
 
-    border: 1px solid rgb(44, 190, 178);
+    border: 1px solid rgb(20, 70, 145);
 
     transition: .5s;
 
