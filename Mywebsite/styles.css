@@ -226,13 +226,9 @@
 
         align-items: center;
 
+        margin-top: 50px;
+
         
-
-    }
-
-    .Images img{
-
-        align-self: center;
 
     }
 
@@ -293,10 +289,6 @@
 }
 
 
-
-
-
-
 /*Contents Styles*/
 
 .Banner{
@@ -328,6 +320,8 @@
     list-style: none;
 
     display: inline-flex;
+
+
 
 }
 
@@ -386,9 +380,9 @@
 
 .Images img{
 
-    height: 65vh;
+    height: vh;
 
-    width: 75%
+    width: 100%
 
 }
 
@@ -405,7 +399,7 @@
 
     font-weight: 500;
 
-    background: linear-gradient(to right, #494964, #6f6f89);
+    background: linear-gradient(to right, rgb(41, 40, 43),rgb(41, 40, 43));
 
     -webkit-background-clip: text;
 
@@ -434,6 +428,9 @@
     position: absoulute;
 
 }
+
+
+
 
 
 
