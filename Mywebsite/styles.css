@@ -327,6 +327,8 @@
 
     transform: translate(-53%,-50%);
 
+    margin-top: 150px;
+
 }
 
 .Social-Media li{
@@ -436,6 +438,59 @@
     position: absoulute;
 
 }
+
+.My-Skills{
+
+    display: flex;
+
+    flex-direction: row;
+    
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    width: auto;
+
+    margin: 0;
+
+
+}
+
+.My-Skills h1{
+
+    font-size: 44px;
+
+    font-weight: 500;
+
+    background: linear-gradient(to right, rgb(41, 40, 43),rgb(41, 40, 43));
+
+    -webkit-background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    margin-bottom: 60px;
+
+}
+
+.Skills h2{
+
+    margin-top: 50px;
+
+    font-size: 3.5;
+
+    color: black;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+    position: relative;
+
+    margin-bottom: 20px;
+
+}
+
+
 
 
 
