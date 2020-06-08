@@ -247,25 +247,6 @@
 
 /*Contents Styles*/
 
-
-.Summary p{
-
-    font-family: 'Times New Roman', Times, serif;
-
-    font-size: 20px;
-
-    width: 45%;
-
-    padding: 25px 20px 25px;
-
-    width: 50%;
-
-    line-height: 40px;
-
-    text-align: center;
-
-}
-
 .Banner{
 
     width: 100%;
@@ -340,11 +321,12 @@
 
     align-items: center;
 
+
 }
 
 .Introduction{
 
-    background-color: violet;
+    margin:2px;
 
     flex:1;
 
@@ -374,6 +356,14 @@
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
+
+}
+
+.Summary p{
+
+    font-size:22px;
+
+    color:#585772;
 
 }
 
