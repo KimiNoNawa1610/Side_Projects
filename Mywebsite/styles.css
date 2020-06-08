@@ -1,4 +1,5 @@
 *{
+
     margin: 0px;
 
     padding: 0px;
@@ -6,6 +7,7 @@
     box-sizing: border-box;
 
 }
+
 
 /* Menu Styles */
 
@@ -55,6 +57,14 @@
     letter-spacing: 4px;
 
     font-size: 24px;
+
+}
+
+.Navigation h4{
+
+    font-style: italic;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
@@ -199,8 +209,14 @@
 
         text-align: center;
 
+    }
+
+    .Images img{
+
+        width: 100%; 
 
     }
+
 
     .Summary h1{
 
@@ -228,12 +244,10 @@
 
         margin-top: 50px;
 
-        
-
     }
 
-    
 }
+
 
 @media screen and (max-width: 1024px){
 
@@ -321,8 +335,6 @@
 
     display: inline-flex;
 
-
-
 }
 
 .Social-Media a{
@@ -380,15 +392,11 @@
 
 .Images img{
 
-    height: vh;
-
-    width: 100%
+    height: 45vh;
 
 }
 
 .Images{
-
-    margin-top: 12px;
 
     flex:1;
 }
