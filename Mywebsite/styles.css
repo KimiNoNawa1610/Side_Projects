@@ -207,20 +207,13 @@
 
         margin-top:5vh;
 
-        text-align: center;
+        align-items: center;
 
     }
 
     .Images img{
 
         width: 100%; 
-
-    }
-
-
-    .Summary h1{
-
-        font-size: 30px;
 
     }
 
@@ -386,6 +379,8 @@
 
   margin-bottom: 20px;
 
+  align-items: center;
+
 }
 
 
@@ -432,7 +427,7 @@
 
     transform: translate(-53%,-50%);
 
-    margin-top: 150px;
+    margin-top: 1500px;
 
 }
 
@@ -541,6 +536,12 @@
     justify-content: space-around;
 
     position: absoulute;
+
+}
+
+.Experiences{
+
+    margin-top: 150px;
 
 }
 
