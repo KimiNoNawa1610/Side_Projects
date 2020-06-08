@@ -128,7 +128,7 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 
     body{
 
@@ -246,13 +246,10 @@
 
     }
 
-
-
-
 }
 
 
-@media screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px){
 
     .links{
 
@@ -302,6 +299,111 @@
 .transform .Third-line{
 
     transform: rotate(45deg) translate(-5px,-7px);
+
+}
+
+.My-Skills {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(524px, 1fr));
+
+  grid-gap: 15px;
+
+}
+
+.portfolio-item-wrapper {
+
+  position: relative;
+
+}
+
+.portfolio-img-background {
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  height: 350px;
+
+  width: 100%;
+
+}
+
+.img-text-wrapper {
+
+  position: absolute;
+
+  top: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100%;
+
+  text-align: center;
+
+  padding-left: 100px;
+
+  padding-right: 100px;
+
+}
+
+.img-text-wrapper .subtitle {
+
+  transition: 1s;
+
+  color: transparent;
+
+}
+
+.image-blur {
+
+  transition: 1s;
+
+  filter: brightness(10%);
+
+}
+
+.img-text-wrapper:hover .subtitle {
+
+  color: lightseagreen;
+
+  font-weight: 600;
+
+}
+
+.logo-wrapper img {
+
+  width: 15%;
+
+  margin-bottom: 20px;
+
+}
+
+
+.profile-image-wrapper img {
+
+  width: 100%;
+
+}
+
+.profile-content-wrapper {
+
+  padding: 30px;
+
+}
+
+.profile-content-wrapper h1 {
+
+  color: lightseagreen;
 
 }
 
@@ -485,115 +587,7 @@
 
 }
 
-.My-Skills {
 
-  display: grid;
-
-  grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-.portfolio-item-wrapper {
-
-  position: relative;
-
-}
-
-.portfolio-img-background {
-
-  background-size: cover;
-
-  background-position: center;
-
-  background-repeat: no-repeat;
-
-  height: 350px;
-
-  width: 100%;
-
-}
-
-.img-text-wrapper {
-
-  position: absolute;
-
-  top: 0;
-
-  display: flex;
-
-  flex-direction: column;
-
-  justify-content: center;
-
-  align-items: center;
-
-  height: 100%;
-
-  text-align: center;
-
-  padding-left: 100px;
-
-  padding-right: 100px;
-
-}
-
-.img-text-wrapper .subtitle {
-
-  transition: 1s;
-
-  color: transparent;
-
-}
-
-.image-blur {
-
-  transition: 1s;
-
-  filter: brightness(10%);
-
-}
-
-.img-text-wrapper:hover .subtitle {
-
-  color: lightseagreen;
-
-  font-weight: 600;
-
-}
-
-.logo-wrapper img {
-
-  width: 15%;
-
-  margin-bottom: 20px;
-
-}
-
-.two-column-wrapper {
-
-  display: grid;
-
-  grid-template-columns: 1fr 1fr;
-
-}
-
-.profile-image-wrapper img {
-
-  width: 100%;
-
-}
-
-.profile-content-wrapper {
-
-  padding: 30px;
-
-}
-
-.profile-content-wrapper h1 {
-
-  color: lightseagreen;
-
-}
 
 
 
