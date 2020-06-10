@@ -33,8 +33,6 @@ public class GameRule {
 
             if(!tempRow.get(i).contains("|o|")&&!tempRow.get(i).contains("|_|")){
 
-                //log.logMove("x","Condition 1" );
-
                 log.logMove("x","is the winner");
 
                 EndGame=true;
@@ -45,8 +43,6 @@ public class GameRule {
 
             else if(!tempRow.get(i).contains("|x|")&&!tempRow.get(i).contains("|_|")){
 
-                //log.logMove("o","Condition 1" );
-
                 log.logMove("o","is the winner");
 
                 EndGame=true;
@@ -56,8 +52,6 @@ public class GameRule {
             }
 
             else if(!board.getColumn(i).contains("|x|")&&!board.getColumn(i).contains("|_|")){
-
-                //log.logMove("o","Condition 2" );
 
                 log.logMove("o","is the winner");
 
