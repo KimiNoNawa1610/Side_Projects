@@ -75,8 +75,6 @@ public class GameRule {
 
         if(!board.getMainDiag().contains("|x|")&&!board.getMainDiag().contains("|_|")){
 
-            //log.logMove("o","Condition 3" );
-
             log.logMove("o","is the winner");
 
             EndGame=true;
