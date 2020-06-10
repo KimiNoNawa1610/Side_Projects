@@ -95,8 +95,6 @@ public class GameRule {
 
         else if(!board.getReverseMainDiag().contains("|o|")&&!board.getReverseMainDiag().contains("|_|")){
 
-            //log.logMove("x","Condition 4" );
-
             log.logMove("x","is the winner");
 
             EndGame=true;
