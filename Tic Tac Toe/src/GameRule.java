@@ -63,8 +63,6 @@ public class GameRule {
 
             else if(!board.getColumn(i).contains("|o|")&&!board.getColumn(i).contains("|_|")){
 
-                //log.logMove("x","Condition 2" );
-
                 log.logMove("x","is the winner");
 
                 EndGame=true;
