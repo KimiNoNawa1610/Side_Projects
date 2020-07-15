@@ -18,26 +18,44 @@ public class main {
         String data="";
 
         File NewFile=new File("D:\\Side_Projects\\ATM\\src\\Input.txt");
-        
+
         Scanner scan=new Scanner(NewFile);
+
         while (scan.hasNextLine()){
+
             data= scan.nextLine();
+
         }
+
         String[] part=data.split(" ");
+
         double[] input=new double[2];
+
         for(int i=0;i<part.length;i++){
+
             input[i]=Double.parseDouble(part[i]);
+
         }
+
         FileWriter output=new FileWriter("Output.txt");
+
         if(input[0]%5!=0){
+
             output.write(Double.toString(input[1]));
+
         }
         else if(input[0]> input[1]){
+
             output.write(Double.toString(input[1]));
+
         }
+
         else{
+
             output.write(Double.toString(input[1]-0.5-input[0]));
+
         }
+        
         output.close();
     }
 }
