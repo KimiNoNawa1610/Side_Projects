@@ -1,11 +1,10 @@
-import java.io.File;
-import java.io.FileNotFoundException;
+import java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class main {
-    
-    public static void main(String[] args) throws FileNotFoundException {
+
+    public static void main(String[] args) throws IOException {
 
         String data="";
 
@@ -27,13 +26,35 @@ public class main {
 
         String[] input=data.split(" ");
 
-        double[] tempin=new double[input.length];
+        int[] tempin=new int[input.length];
 
         for(int i=0;i< input.length;i++){
 
-            tempin[i]=Double.parseDouble(input[i]);
+            tempin[i]=Integer.parseInt(input[i]);
 
         }
+
+        int bench=tempin[1];
+
+        int output=0;
+
+        for(int i=2;i<tempin.length;i++){
+
+            if(tempin[i]%bench==0){
+
+                output+=1;
+
+            }
+
+        }
+
+        System.out.println("There are "+output+" number(s) divisible by "+bench);
+
+        FileWriter out=new FileWriter("Output.txt");
+
+        out.write(String.valueOf(output));
+
+        out.close();
 
     }
 }
