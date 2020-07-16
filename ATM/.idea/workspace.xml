@@ -82,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="914" height="295" key="GridCell.Tab.0.bottom" timestamp="1594788335369">
@@ -100,9 +101,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1594788335369" />
-    <state x="0" y="164" key="new project wizard" timestamp="1594786973262">
+    <state x="0" y="164" key="new project wizard" timestamp="1594874901498">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="0" y="164" key="new project wizard/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1594786973262" />
+    <state x="0" y="164" key="new project wizard/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1594874901498" />
   </component>
 </project>
