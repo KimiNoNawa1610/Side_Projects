@@ -11,7 +11,6 @@ the digit 4 in the decimal representation. He is too busy now, so please help hi
 
 Input
 The first line of input consists of a single integer T, denoting the number of integers in Kostya's list.
-
 Then, there are T lines, each of them contain a single integer from the list.
 
 Output
