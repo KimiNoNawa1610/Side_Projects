@@ -13,6 +13,7 @@ Output;
 For each integer n given at input, display a line with the value of n!
  */
 public class main {
+    
     public double factorial(int x){
         if(x<=0||x==1){
             return 1;
